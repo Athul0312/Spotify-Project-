@@ -1,12 +1,12 @@
 # Spotify-Project-
 Attempt at unsupervised learning project: clustering 100k+ Spotify tracks using audio features.
-# Spotify Genre Clustering 🎧
+# Spotify Genre Clustering 
 
 Unsupervised learning project exploring whether meaningful genre groupings could emerge from audio-only features and (a very simple algorithm in) K-Means CLustering, with no genre labels used during clustering.
 
 ---
 
-## 📌 What I Did
+##  What I Did
 - Cleaned and explored 100k+ real Spotify tracks
 - Scaled features like danceability, energy, tempo, valence, etc.
 - Applied KMeans clustering and visualized with PCA
@@ -15,7 +15,7 @@ Unsupervised learning project exploring whether meaningful genre groupings could
 
 ---
 
-## 💬 Project Summary
+##  Project Summary
 
 This clustering certainly isn't 100% perfect, but there are several eye-catching groupings:
 
@@ -35,7 +35,7 @@ This clustering certainly isn't 100% perfect, but there are several eye-catching
 
 ---
 
-## 📉 Metrics
+##  Metrics
 
 - **Silhouette score:** ~0.15  
   ↪ Low, indicating poor geometric separation.  
@@ -43,14 +43,14 @@ This clustering certainly isn't 100% perfect, but there are several eye-catching
 
 ---
 
-## 🎯 Takeaway
+##  Takeaway
 
 This began as a light experiment out of curiosity, but turned into a thoughtful unsupervised exploration.  
 Despite a low silhouette score, many clusters showed surprising genre consistency — and the project revealed both the strengths and limitations of using raw audio features for genre grouping.
 
 ---
 
-## 🧠 Next Steps
+##  Next Steps
 - Try HDBSCAN or GMM
 - Use deep embeddings or listener-based features
 - Explore recommender systems based on clusters
